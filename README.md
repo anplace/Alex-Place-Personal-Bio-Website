@@ -1,9 +1,11 @@
 # Personal-Bio-Website
 A website to promote and display our portfolio that we have created throughout the Full Stack Boot Camp. It was requested that the website have:
   - Working links in the header that link to the appropriate section in the website.
-  - A work Portfolio section that has photos with hover actions that also link to their respective projects. The only current link is for        the Horiseon Refactor.
+  - A work Portfolio section that has photos with hover actions that also link to their respective projects. The only current link is for the Horiseon Refactor, more will come as we 
+    complete projects.
   - A contact section with my phone number, email, link to my GitHub, and link to my LinkedIn account, and a recent phot of myself.
   - The website should automatically resize based on the display size with features like stacking the Work Portfolio and header links.
+  - The images I have used symbolize my top interests. Sailing, traveling, mountain escapes/skiing, exploring but Land Cruisers in particular, and camping/hiking.
 
 ### Purpose 
 The purpose of this work is to create a website that future employers, and current employers, can look at to consider me for a position/promotion. The website will demonstrate a basic understanding of HTML and CSS. It will incorporate features like hover, classes, IDs, semantic HTML, clear notation, media queries, and have a logical flow.
