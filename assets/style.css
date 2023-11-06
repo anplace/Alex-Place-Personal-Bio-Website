@@ -1,0 +1,209 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+h2 {
+    font-size: 20px;
+    color: #0a6d20;
+    /* background-color: darkslategrey; */
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+
+.header {
+    background-color: #0c5da0;
+    margin-bottom: 10px;
+}
+
+#h1{
+    font-size: 40px;
+    color: orange;
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 10px;
+    width: 275px;
+    display: inline-block;
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    color: orange;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+}
+
+.core{
+    width: 75%;
+    height: 125px;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline;
+    float: left;
+}
+.next{
+    width: 20%;
+    display: inline;
+    float: right;
+
+}
+.content-1 {
+    /* height: 125px; */
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    background-color: darkgray;
+    width: 95vw;
+}
+.content-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.About-Me {
+    /* padding:10px;
+    margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Work {
+    padding:10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid #536DFE;
+}
+
+.Contact-Me {
+    padding:10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:circle;
+}
+
+ul li {
+    list-style: square;
+}
+
+.Contact-Me li {
+    margin-right: 40px;
+}
+
+.horiseon{
+    display: flex;
+    position: relative;
+    bottom: 75px;
+    left: 5px;
+    width: fit-content;
+    padding: 10px;
+    text-decoration: none;
+    color: orange;
+    background-color: black;
+}
+
+.placeholder-1{
+    display: flex;
+    position: relative;
+    bottom: 75px;
+    left: 5px;
+    width: fit-content;
+    padding: 10px;
+    text-decoration: none;
+    color: orange;
+    background-color: black;
+}
+
+#ANP-Canyonlands{
+    height: 200px;
+}
+
+#sailing-img{
+    width: 920px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+    border: solid 5px slategray;
+    margin: 10px;
+}
+
+#other-img{
+    width: 450px;
+    opacity: 0.5;
+    border: solid 5px slategray;
+    margin: 10px;
+}
+
+#about-me{
+    border-right: solid #536DFE;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+#contact-me{
+    border-right: solid #536DFE;
+}
+
+#about-me-para{
+    width: 900px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sailing-img:hover{
+    opacity:1;
+    cursor: pointer;
+}
+
+#other-img:hover{
+    opacity:1;
+    cursor: pointer;
+}
+
+/* @media screen and (min-width:320px){
+    *{
+        font-size: 12px;
+    }
+
+    .header{
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:1200px){
+
+} */
