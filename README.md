@@ -21,7 +21,7 @@ I am excited to modify this site throughout the course and screenshots will be p
 
 [Link to my Github repository](https://github.com/anplace/Personal-Bio-Website)
 
-[Link to the deployed site](https://anplace.github.io/Personal-Bio-Website/)
+[Link to the deployed site](https://anplace.github.io/Alex-Place-Personal-Bio-Website/)
 
 Site as of 11/06/2023:
 ![image](https://github.com/anplace/Personal-Bio-Website/assets/144726483/a469beb6-4d38-4601-a1d3-ae1ebc7df05d)
