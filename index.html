@@ -5,7 +5,7 @@
 
 <head>
 <meta charset="UTF-8" />
-<title>Alex Place</title>
+<title>Alex Place's Bio</title>
 <link rel="stylesheet" href="/assets/reset.css">
 <link rel="stylesheet" href="/assets/style.css">
 </head>
@@ -16,28 +16,28 @@
         <nav class="header nav">
             <ul>
                 <li>
-                    <a href="#">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#Work">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#Contact-Me">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#Resume">Resume</a>
+                    <!-- This is the most up to date resume I have but it still needs lots of work. -->
+                    <a href="/assets/ANP - Resume 2020.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="core">
-        <div class="content-1">
+    <main>
+        <div class="content">
             <section class="About-Me">
-            <!-- <img src="/assets/Me-At-Canyons-NP.jpg" width="200" alt="Alex Place hiking at Canyonlands National Park"/> -->
-            <section class="content-2">    
+            <section class="content-sub">    
                 <h2 id="about-me" >About Me</h2>
             </section>
-            <section>
+            <section class="content-sub">
                 <p id="about-me-para">
                 I am a University of Texas Full Stack BootCamp student. I am learning coding so I can move
                 out of EMS and into a more stable, higher paying, mobile career, with more opportunity for
@@ -47,12 +47,13 @@
                 </p>
             </section>
             </section>
+            <img id="ANP-Canyonlands" src="/assets/Me-At-Canyons-NP.jpg" alt="Alex Place hiking at Canyonlands National Park"/>
         </div>
-        <div class="content-1">
+        <div class="content">
             <section class="Work">
-                <h2>Work Portfolio</h2>
+                <h2 id="work">Work Portfolio</h2>
             </section>
-            <section class="content-2">
+            <section class="content-sub">
                 <element>
                     <!-- This is the sailing image. -->
                     <img id="sailing-img" src="/assets/sunset-sailing.jpg" alt="sailing ship heeling while sailing into the sunset"/>
@@ -74,6 +75,7 @@
                 </element>
                 <element>
                     <!-- This is the image with the Land Cruiser. -->
+                    <!-- This picture needs to be changed as the dimensions are wrong, but I ran out of time. -->
                     <img id="other-img" src="/assets/LandCruiser.jpg" alt="A red 100 series Land Cruiser with large water jugs on roof rack sits at the foot of a sand dune in a desert setting."/>
                     <!-- Photo by <a href="https://unsplash.com/@loacfr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Loïc Mermilliod</a> on <a href="https://unsplash.com/photos/red-suv-facing-mountain-EKnd0HcEyCM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
                     <a class="placeholder-1" href="#">Placeholder</a>
@@ -86,16 +88,15 @@
                 </element>
             </section>
         </div>
-        <div class="content-1">
+        <div class="content">
             <section class="Contact-Me">
                 <h2 id="contact-me" >Contact Me</h2>
                 <ul class="ul">
-                    <li style="margin-left: 20px;">302.229.1660</li> 
+                    <li id="contact-number">302.229.1660</li> 
                     <li><a href="mailto:alexander.n.place@gmail.com">Email</a></li>
                     <li><a href="https://github.com/anplace" target="_blank">GitHub</a></li>
                     <li><a href="https://www.linkedin.com/in/alexnplace/" target="_blank">LinkedIn</a></li>
                 </ul>
-                <img id="ANP-Canyonlands" src="/assets/Me-At-Canyons-NP.jpg" alt="Alex Place hiking at Canyonlands National Park"/>
             </section>
         </div>
     </main>

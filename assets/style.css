@@ -3,18 +3,12 @@
 }
 
 p {
-    display: flex;
-    margin-left: 10px;
+    /* display: flex; */
 }
 
-
-h2 {
-    font-size: 20px;
-    color: #0a6d20;
-    /* background-color: darkslategrey; */
-    text-align: center;
-    padding: 10px;
-    display: inline-block;
+main{
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -23,12 +17,12 @@ h2 {
 }
 
 #h1{
-    font-size: 40px;
+    display: flex;
+    font-size: 2.25em;
     color: orange;
     background-color: darkslategrey;
     text-align: center;
     padding: 10px;
-    width: 275px;
     display: inline-block;
 }
 
@@ -46,44 +40,54 @@ h2 {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+.header nav ul li a {
+    margin-left: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: orange;
+    text-decoration: none;
 }
 
-.core{
-    width: 75%;
-    height: 125px;
-    display: flex;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    display: inline;
-    float: left;
+h2 {
+    font-size: 20px;
+    color: #0a6d20;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
 }
-.next{
-    width: 20%;
-    display: inline;
-    float: right;
 
-}
-.content-1 {
-    /* height: 125px; */
+.content{;
     display: flex;
+    /* justify-content: center; */
     margin: 10px 10px 10px 10px;
     background-color: darkgray;
-    width: 95vw;
 }
-.content-2{
+
+.content-about {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: darkgray;
+}
+
+.content-sub{
+    display: flex;
+    flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
 }
 
-.About-Me {
-    /* padding:10px;
-    margin-top: 10px; */
+.content-work {
     display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px 10px 10px;
+    background-color: darkgray;
+}
+
+.About-Me {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -101,19 +105,30 @@ h2 {
     padding:10px;
     margin-top: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style-type:circle;
 }
 
-ul li {
-    list-style: square;
+.ul li::before{
+    content:"\2022";
+    color: #b4461a;
+    margin-right: 5px;
+}
+
+.ul li a{
+    text-decoration: none;
+    color: #b4461a;
+}
+
+#contact-number{
+    margin-left: 20px;
+    color: #b4461a;
 }
 
 .Contact-Me li {
@@ -145,6 +160,8 @@ ul li {
 }
 
 #ANP-Canyonlands{
+    display: flex;
+    margin-left: 7%;
     height: 200px;
 }
 
@@ -190,20 +207,23 @@ ul li {
     cursor: pointer;
 }
 
-/* @media screen and (min-width:320px){
-    *{
-        font-size: 12px;
-    }
-
-    .header{
-        display: block;
-    }
-}
-
-@media screen and (min-width:768px){
+@media only screen and (max-width: 320px) {
 
 }
 
-@media screen and (min-width:1200px){
+@media screen and (max-width: 850px){
+    .header,
+    .header-nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
-} */
+@media screen and (max-width: 1290px){
+    #ANP-Canyonlands{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+}
