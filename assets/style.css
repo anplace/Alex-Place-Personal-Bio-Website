@@ -2,10 +2,6 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-p {
-    /* display: flex; */
-}
-
 main{
     margin: 0;
     padding: 0;
@@ -213,17 +209,15 @@ h2 {
 
 @media screen and (max-width: 850px){
     .header,
-    .header-nav{
+    .header-nav,
+    .content-sub{
         display: flex;
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 1290px){
+@media screen and (max-width: 1317px){
     #ANP-Canyonlands{
         display:none;
     }
-}
-
-@media screen and (min-width: 1200px){
 }
